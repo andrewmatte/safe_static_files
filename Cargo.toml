@@ -1,0 +1,11 @@
+[package]
+name = "safe_static_files"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hyper = "1.6.0"
+hyper-tls = "0.6.0"
+openssl = "0.10.71"
+tokio = "1.43.0"
+tokio-openssl = "0.6.5"
